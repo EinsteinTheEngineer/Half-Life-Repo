@@ -91,6 +91,6 @@ Now I am finally done with the board and tomorrow I will go ahead and check all 
 
 ![image](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/PyBRq8PPAIR10a85zVadomccKWQcxryn/7495d8a37906046cdb4a0049f4359ee00c99dc6678350b4de0dc337723b0ab0b.png)
 
-NGL this looks so cool after learning how to make PCBs.
+NGL this looks so cool after learning how to make PCBs. Forgot to add the footprints!
 
 hope you like it!
