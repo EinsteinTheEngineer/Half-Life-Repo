@@ -1,4 +1,11 @@
 # Half-Life-Repo
+PURPOSE:
+The purpose of my project is to create a simple yet extremely useful Flight computer, that can also be used for rockets, and this would simply send data, of temperature, bearing, and height, I can also create a velocity time graph with velocity put on the graph, and then simple derivate that to get acceleration, or I can just use the accelerometer, the MPU, and use that to give me a A vs. T graph. Why it exists: The reason is that flight computer is expensive and this is a fully done PCB, instead of me having to use a breadboard and have to worry about a loose connection, I can asssure myself that the copper traces will work. I love building plane and rockets, but what I like more is seeing them work and not fail, for this I need data! So I created this board to collect me data and so if it does fail, why and how can I prevent it the next time.
+
+
+
+
+
 My project is a flight computer that will have multiple sensors talk to and esp32 wroom chip that will write the data to an SD card that will store it. The board consists of the following: ESP32-WROOM chip, MPU6050, BMP280, and an SD card logger. This was my plan at first, and it was changed a lot though. I add a DC to DC Buck converter it would convert 6v dc to 3.3v dc for the esp to then spit out 3.3v logic.
 Started as this:
 <img width="1512" height="1200" alt="Screenshot 2026-10-05 224937" src="https://github.com/user-attachments/assets/00e4758d-59ce-4b09-8c4a-6a31906f12e1" />
