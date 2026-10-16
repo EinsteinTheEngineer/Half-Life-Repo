@@ -36,3 +36,17 @@ Then routed the board:
 
 
 And finally done!
+
+
+Here is My BOM for the parts I am using:
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"C1,C2,C3,C4","4","100","","","","Capacitor_SMD:C_0603_1608Metric","~"
+"C5","1","2.2","","","","Capacitor_SMD:C_0603_1608Metric","~"
+"J1","1","Micro_SD_Card_Det1","","","","microSD_HC_Hirose_DM3AT-SF-PEJM5","https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
+"J2","1","Screw_Terminal_01x02","","","","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal","~"
+"L1","1","6.8","","","","L_1210_3225Metric","~"
+"SW1","1","SW_SPST","","","","SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile","~"
+"U1","1","ESP32-WROOM-32E","","","","RF_Module:ESP32-WROOM-32D","https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf"
+"U2","1","BMP280","","","","Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering","https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf"
+"U3","1","MPU-6050","","","","Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm","https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf"
+"U4","1","AP63203WU","","","","Package_TO_SOT_SMD:TSOT-23-6","https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pd
