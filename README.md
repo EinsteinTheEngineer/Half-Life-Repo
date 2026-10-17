@@ -1,4 +1,7 @@
 # Half-Life-Repo
+
+# WEEK 1
+
 PURPOSE:
 The purpose of my project is to create a simple yet extremely useful Flight computer, that can also be used for rockets, and this would simply send data, of temperature, bearing, and height, I can also create a velocity time graph with velocity put on the graph, and then simple derivate that to get acceleration, or I can just use the accelerometer, the MPU, and use that to give me a A vs. T graph. Why it exists: The reason is that flight computer is expensive and this is a fully done PCB, instead of me having to use a breadboard and have to worry about a loose connection, I can asssure myself that the copper traces will work. I love building plane and rockets, but what I like more is seeing them work and not fail, for this I need data! So I created this board to collect me data and so if it does fail, why and how can I prevent it the next time.
 
@@ -50,3 +53,10 @@ Here is My BOM for the parts I am using:
 "U2","1","BMP280","","","","Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering","https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf"
 "U3","1","MPU-6050","","","","Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm","https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf"
 "U4","1","AP63203WU","","","","Package_TO_SOT_SMD:TSOT-23-6","https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pd
+
+
+# WEEK 2
+
+The purpose of this project is the create an enclosure for my PCB that I designed in week 1, this will make sure it isn't just sitting in there just chilling, I made sure to add mounting holes, and vents to make sure it will sit there and that it will have some breathability, and so it can cool, with the use of a fan two, since it will also use its antenna to communicate with my computer that's on the ground. So that means I technically have two ways to get data, from the SD card and from communication with my computer. I would trust the SD card more since the computer may have lost packets on the way and it could not be as reliable as a SD card, but it there as another way to have data.
+
+<img width="1150" height="742" alt="image" src="https://github.com/user-attachments/assets/899c754f-2885-415f-ad31-b0a64ea5dabe" />
