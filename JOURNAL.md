@@ -6,7 +6,7 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmv5iw5mt0j5501n0pse7qy9k). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> This is an enclosure for the PCB that I designed in week 1.
+> This is an enclosure for the PCB that I designed in week 1. It has a fan cut out, and multiple vents for airflow so that it doesn't overheat and the plastic melts, since it is PLA.
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
