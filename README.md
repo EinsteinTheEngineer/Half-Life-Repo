@@ -37,11 +37,15 @@ After fighting the ERC test
 Then routed the board:
 <img width="522" height="568" alt="Screenshot 2026-10-10 120944" src="https://github.com/user-attachments/assets/73e01116-fdee-4277-9529-5b1d563f19c8" />
 
+The 3d View
+<img width="1148" height="1022" alt="image" src="https://github.com/user-attachments/assets/e8037be4-17c5-4d21-a429-5a5c477eb6ba" />
+
 
 And finally done!
 
 
 Here is My BOM for the parts I am using:
+
 "Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
 "C1,C2,C3,C4","4","100","","","","Capacitor_SMD:C_0603_1608Metric","~"
 "C5","1","2.2","","","","Capacitor_SMD:C_0603_1608Metric","~"
@@ -53,7 +57,6 @@ Here is My BOM for the parts I am using:
 "U2","1","BMP280","","","","Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering","https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf"
 "U3","1","MPU-6050","","","","Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm","https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf"
 "U4","1","AP63203WU","","","","Package_TO_SOT_SMD:TSOT-23-6","https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pd
-
 
 # WEEK 2
 
