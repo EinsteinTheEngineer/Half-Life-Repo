@@ -63,3 +63,6 @@ Here is My BOM for the parts I am using:
 The purpose of this project is the create an enclosure for my PCB that I designed in week 1, this will make sure it isn't just sitting in there just chilling, I made sure to add mounting holes, and vents to make sure it will sit there and that it will have some breathability, and so it can cool, with the use of a fan two, since it will also use its antenna to communicate with my computer that's on the ground. So that means I technically have two ways to get data, from the SD card and from communication with my computer. I would trust the SD card more since the computer may have lost packets on the way and it could not be as reliable as a SD card, but it there as another way to have data.
 
 <img width="1150" height="742" alt="image" src="https://github.com/user-attachments/assets/899c754f-2885-415f-ad31-b0a64ea5dabe" />
+
+Me personally, I printed this with PLA, since its cheap, light weight, and it's not like there's going to be such high temperatures, hence there is also a fan there for a reason.
+PLA, print with 10-15% infill, you'll probably need support material, I have a K1C so no multi-material, so I just printed PLA supports.
