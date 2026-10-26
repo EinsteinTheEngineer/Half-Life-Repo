@@ -80,6 +80,21 @@ With the cut outs
 3D view
 <img width="396" height="876" alt="Screenshot 2026-10-25 212646" src="https://github.com/user-attachments/assets/b80edc1b-11a0-42ae-b9dd-951c3e18a122" />
 
+Here's the BOM
+
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"C1","1","100","","","","Capacitor_SMD:C_0805_2012Metric","~"
+"C2","1","10000","","","","Capacitor_SMD:C_0805_2012Metric","~"
+"C3","1","C","","","","Capacitor_SMD:C_0805_2012Metric","~"
+"D1","1","LED","","","","LED_THT:LED_D3.0mm","~"
+"J1,J2","2","Conn_01x09_Pin","","","","Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical","~"
+"J3","1","Conn_01x06_Pin","","","","Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical","~"
+"J4","1","Micro_SD_Card","","","","Connector_Card:microSD_HC_Wuerth_693072010801","https://www.we-online.com/components/products/datasheet/693072010801.pdf"
+"J5","1","Screw_Terminal_01x02","","","","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal","~"
+"R1","1","330","","","","Resistor_SMD:R_0805_2012Metric","~"
+"SW1","1","SW_Push","","","","Button_Switch_THT:SW_PUSH_6mm","~"
+
+
 
 
 
