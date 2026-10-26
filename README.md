@@ -66,3 +66,20 @@ The purpose of this project is the create an enclosure for my PCB that I designe
 
 Me personally, I printed this with PLA, since its cheap, light weight, and it's not like there's going to be such high temperatures, hence there is also a fan there for a reason.
 PLA, print with 10-15% infill, you'll probably need support material, I have a K1C so no multi-material, so I just printed PLA supports.
+
+# WEEK 3
+
+This week I decided to create a recorder, it records sounds and stuff like that. The purpose for why I wanted to do this was because it was relatively simple, plus I learned about this new board the ESP32-S3-Zero, it's so good. It so useful, though its small it does a lot of things whilst being small. I was the perfect addition to the board, and just the same simple way of coding it. At first, I was about to use the actual esp32, which was most definitely going to be overkill for this simple guy. This board is a breakout board kind of, since it doesn't have an on-board ESP but the board will be put onto the thing.
+
+Fully routed
+<img width="248" height="694" alt="Screenshot 2026-10-25 212208" src="https://github.com/user-attachments/assets/0c8249b3-daeb-4f86-a8c7-041f82ada282" />
+
+With the cut outs
+<img width="414" height="716" alt="Screenshot 2026-10-25 212635" src="https://github.com/user-attachments/assets/f1133016-d9ac-4982-820e-f3c904f68a9c" />
+
+3D view
+<img width="396" height="876" alt="Screenshot 2026-10-25 212646" src="https://github.com/user-attachments/assets/b80edc1b-11a0-42ae-b9dd-951c3e18a122" />
+
+
+
+
