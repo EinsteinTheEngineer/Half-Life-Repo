@@ -94,6 +94,12 @@ Here's the BOM
 "R1","1","330","","","","Resistor_SMD:R_0805_2012Metric","~"
 "SW1","1","SW_Push","","","","Button_Switch_THT:SW_PUSH_6mm","~"
 
+# WEEK 4
+
+This week I focused on a weather and display thing. This was a simple yet easy idea that I would like to keep on my desk. It will show date, time, weather, and just a sleek design. The purpose of this was to create something very useful, and it will be simple enough to be easy to do. 
+
+<img width="1206" height="1312" alt="Screenshot 2026-11-01 211237" src="https://github.com/user-attachments/assets/6e33915b-e0bf-440c-a1ca-c1d28702c67c" />
+
 
 
 
