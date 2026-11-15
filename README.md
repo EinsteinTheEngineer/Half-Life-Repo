@@ -1,4 +1,4 @@
-# Half-Life-Repo
+ # Half-Life-Repo
 
 # WEEK 1
 
@@ -46,17 +46,28 @@ And finally done!
 
 Here is My BOM for the parts I am using:
 
-"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
-"C1,C2,C3,C4","4","100","","","","Capacitor_SMD:C_0603_1608Metric","~"
-"C5","1","2.2","","","","Capacitor_SMD:C_0603_1608Metric","~"
-"J1","1","Micro_SD_Card_Det1","","","","microSD_HC_Hirose_DM3AT-SF-PEJM5","https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
-"J2","1","Screw_Terminal_01x02","","","","TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal","~"
-"L1","1","6.8","","","","L_1210_3225Metric","~"
-"SW1","1","SW_SPST","","","","SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile","~"
-"U1","1","ESP32-WROOM-32E","","","","RF_Module:ESP32-WROOM-32D","https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf"
-"U2","1","BMP280","","","","Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering","https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf"
-"U3","1","MPU-6050","","","","Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm","https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf"
-"U4","1","AP63203WU","","","","Package_TO_SOT_SMD:TSOT-23-6","https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pd
+Designator	Category	Part / Value	Qty	Package / Footprint	Est. Unit Price (USD)	Est. Line Total (USD)	Distributor Link
+U1	IC / Module	Espressif ESP32-WROOM-32E (or 32U)	1	ESP32-WROOM-32	7.21	7.21	digikey.com
+U2	Sensor	Bosch BMP280	1	LGA-8 (2.0x2.5mm)	3	3	digikey.com
+U3	Sensor	TDK InvenSense MPU-6050	1	QFN-24 (4x4mm)	4.25	4.25	digikey.com
+U4	Power IC	Diodes Inc. AP63203WU-7	1	TSOT-23-6	0.65	0.65	digikey.com
+U5	Interface IC	WCH CH340C	1	SOP-16	0.9	0.9	lcsc.com
+J1	Connector	MicroSD Card Slot (Push-Push)	1	MicroSD_Card_Det	1.1	1.1	digikey.com
+J2	Connector	2-Pin JST-PH 2.0mm Header	1	JST_PH_B2B-PH-K	0.25	0.25	digikey.com
+J3	Connector	HRO TYPE-C-31-M-12 (16-Pin USB-C)	1	USB_C_Receptacle_16P	0.55	0.55	lcsc.com
+SW1	Switch	SPDT SMD Slide Switch	1	SW_SPDT_PCM12	0.4	0.4	digikey.com
+Q1, Q2	Transistor	S8050 (or MMBT3904) NPN	2	SOT-23	0.1	0.2	digikey.com
+D1, D2	Diode	B5819W Schottky Diode	2	SOD-123	0.15	0.3	digikey.com
+R1, R2	Resistor	5.1 kΩ (1%)	2	0603 (1608 Metric)	0.1	0.2	digikey.com
+R3, R4, R_EN, R_IO0, R_SD1–3	Resistor	10 kΩ (1%)	7	0603 (1608 Metric)	0.1	0.7	digikey.com
+R_TX	Resistor	1 kΩ (1%)	1	0603 (1608 Metric)	0.1	0.1	digikey.com
+R_SDA, R_SCL	Resistor	4.7 kΩ (1%)	2	0603 (1608 Metric)	0.1	0.2	digikey.com
+C5	Capacitor	2.2 nF (50V X7R)	1	0603 (1608 Metric)	0.1	0.1	digikey.com
+C1–C4, C_DEC1–5	Capacitor	100 nF (16V/25V X7R)	7	0603 (1608 Metric)	0.1	0.7	digikey.com
+C_EN	Capacitor	1 µF (16V X7R)	1	0603 (1608 Metric)	0.1	0.1	digikey.com
+C_IN, C_BULK1–2	Capacitor	10 µF (25V X5R/X7R)	3	0805 (2012 Metric)	0.15	0.45	digikey.com
+C6	Capacitor	22 µF (16V X5R/X7R)	1	0805 (2012 Metric)	0.2	0.2	digikey.com
+L1	Inductor	3.3 µH (≥1.5A Shielded)	1	1210 (3225 Metric)	0.45	0.45	digikey.com
 
 # WEEK 2
 
