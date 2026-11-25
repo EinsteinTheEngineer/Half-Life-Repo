@@ -17,18 +17,12 @@
 const char* WIFI_SSID = "YOUR_WIFI_NAME";
 const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
 
-// Change these to your location
 const float LATITUDE = 40.10;
 const float LONGITUDE = -83.12;
 
-// Cincinnati / Eastern time
 const char* TIMEZONE = "EST5EDT,M3.2.0/2,M11.1.0/2";
 
 // =====================================
-// GPIO CONFIGURATION
-// =====================================
-
-// TFT Display
 #define TFT_MOSI 11
 #define TFT_SCLK 12
 #define TFT_CS   10
@@ -41,14 +35,9 @@ const char* TIMEZONE = "EST5EDT,M3.2.0/2,M11.1.0/2";
 #define BMP_SCL 6
 
 // =====================================
-// OBJECTS
-// =====================================
-
 Adafruit_ST7789 tft(TFT_CS, TFT_DC, TFT_RST);
 Adafruit_BMP085 bmp;
 
-// =====================================
-// WEATHER VARIABLES
 // =====================================
 
 float outdoorTemp = 0;
@@ -74,9 +63,6 @@ unsigned long lastWeatherUpdate = 0;
 const unsigned long WEATHER_INTERVAL = 900000;
 
 // =====================================
-// WEATHER CODE CONVERSION
-// =====================================
-
 String weatherDescription(int code) {
 
   if (code == 0) return "Clear";
@@ -94,9 +80,6 @@ String weatherDescription(int code) {
 }
 
 // =====================================
-// WIFI CONNECTION
-// =====================================
-
 void connectWiFi() {
 
   Serial.println("Connecting to WiFi...");
@@ -127,9 +110,6 @@ void connectWiFi() {
 }
 
 // =====================================
-// TIME SYNCHRONIZATION
-// =====================================
-
 void setupTime() {
 
   configTzTime(
@@ -142,9 +122,6 @@ void setupTime() {
 }
 
 // =====================================
-// GET WEATHER FROM OPEN-METEO
-// =====================================
-
 bool getWeather() {
 
   if (WiFi.status() != WL_CONNECTED) {
@@ -237,8 +214,6 @@ bool getWeather() {
 }
 
 // =====================================
-// READ BMP180
-// =====================================
 
 void readBMP() {
 
@@ -260,8 +235,6 @@ void readBMP() {
   );
 }
 
-// =====================================
-// DISPLAY TIME AND DATE
 // =====================================
 
 void drawTime() {
@@ -300,8 +273,6 @@ void drawTime() {
   tft.print(dateBuffer);
 }
 
-// =====================================
-// DISPLAY CURRENT WEATHER
 // =====================================
 
 void drawCurrentWeather() {
@@ -353,9 +324,6 @@ void drawCurrentWeather() {
 }
 
 // =====================================
-// DISPLAY BAROMETER
-// =====================================
-
 void drawPressure() {
 
   tft.setTextColor(ST77XX_CYAN);
@@ -381,9 +349,6 @@ void drawPressure() {
 }
 
 // =====================================
-// DISPLAY SEVEN DAY FORECAST
-// =====================================
-
 void drawForecast() {
 
   tft.setTextSize(1);
@@ -426,9 +391,6 @@ void drawForecast() {
 }
 
 // =====================================
-// COMPLETE DISPLAY UPDATE
-// =====================================
-
 void updateDisplay() {
 
   tft.fillScreen(ST77XX_BLACK);
@@ -439,8 +401,6 @@ void updateDisplay() {
   drawForecast();
 }
 
-// =====================================
-// SETUP
 // =====================================
 
 void setup() {
@@ -490,8 +450,6 @@ void setup() {
   lastWeatherUpdate = millis();
 }
 
-// =====================================
-// MAIN LOOP
 // =====================================
 
 void loop() {
